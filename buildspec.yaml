@@ -19,7 +19,7 @@ phases:
     commands:
       - echo Entered the build phase...
       - echo Change directory to secondary source
-      - cd $CODEBUILD_SRC_DIR/k8s
+      - cd k8s
       - echo List directory
       - ls -la
       - echo Push the latest image to cluster
